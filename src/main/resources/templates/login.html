@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login User</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <form action="http://localhost:9090/user/api/login" method="post">
+
+        <table>
+            <tr>
+                <td><label>USERNAME</label></td>
+                <td><input type="text" name="username" required /></td>
+            </tr>
+
+            <tr>
+                <td><label>PASSWORD</label></td>
+                <td><input type="password" name="password" required /></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="submit">LOGIN</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

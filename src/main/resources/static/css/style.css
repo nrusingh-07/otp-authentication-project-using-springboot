@@ -1,0 +1,111 @@
+/* ---------- RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* ---------- PAGE BACKGROUND ---------- */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- CARD CONTAINER ---------- */
+form {
+    background: #ffffff;
+    padding: 30px 35px;
+    border-radius: 12px;
+    width: 360px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    animation: slideUp 0.6s ease;
+}
+
+/* ---------- HEADINGS ---------- */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ---------- TABLE ---------- */
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px 0;
+}
+
+/* ---------- LABEL ---------- */
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* ---------- INPUT ---------- */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.6);
+}
+
+/* ---------- BUTTON ---------- */
+button,
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ---------- LINKS ---------- */
+a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #667eea;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- ANIMATION ---------- */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
