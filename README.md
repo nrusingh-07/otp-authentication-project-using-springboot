@@ -137,7 +137,7 @@ On login:
 - Location
 - src/main/resources/static/css/style.css
 - Linked in HTML using:
-- <link rel="stylesheet" href="/css/style.css">
+```<link rel="stylesheet" href="/css/style.css```
 # Future Enhancements
 
 - OTP expiry (time-based)
