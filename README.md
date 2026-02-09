@@ -118,7 +118,7 @@ On login:
 - Clone the repository:
 ```git clone https://github.com/your-username/otp-auth-project.git```
 
--Import the project into Eclipse / IntelliJ
+- Import the project into Eclipse / IntelliJ
 
 - Create MySQL database:
  ```CREATE DATABASE otp_auth;```
