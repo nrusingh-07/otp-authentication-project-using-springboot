@@ -32,7 +32,7 @@ This project demonstrates secure authentication using OTP verification and follo
 
 ---
 
-##  Project Structure
+##  Project Structure:
 
 src/
 ├── main/
