@@ -6,7 +6,7 @@ This project demonstrates secure authentication using OTP verification and follo
 
 ---
 
-##  Features:
+##  Features
 
 - User Signup
 - User Login with Username & Password
